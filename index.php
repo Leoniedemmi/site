@@ -26,9 +26,7 @@
 
         <!-- Panier -->
         <div class="cart">
-            
-            <a href="#" title="Voir le panier">
-                
+            <a href="panier.php" title="Voir le panier">
                 <img src="image-removebg-preview-9.png" onmouseover="this.src='cadi@3x.png'" onmouseout="this.src='image-removebg-preview-9.png'" width=50px height=50px alt="Panier" />
             </a>
         </div>
@@ -36,9 +34,11 @@
 
 </body>
 <body>
+    <section class="header">
     <header>
         <nav>
             <ul>
+            <section class="mot">
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="randonner.php">ski randonner</a></li>
                 <li><a href="piste.php">ski de piste</a></li>

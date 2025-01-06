@@ -10,9 +10,7 @@ body {
     background-color: hsl(0, 0%, 96%);
     color: #333;
 }
-body:hover{
-    background-color: rgb(255, 160, 52);
-}
+
 
 header {
     background-color: #395686;
@@ -112,11 +110,14 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
     background-color: #2a4063;
     color: white;
+}
+.mot a:hover{
+    background-color: #4c73b7b8;
 }
 
 .logo {
@@ -137,6 +138,7 @@ header {
 
 /* Styles du panier */
 .cart a {
+    float: right;
     color: white;
     text-decoration: none;
 }
