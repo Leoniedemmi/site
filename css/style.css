@@ -7,8 +7,11 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: hsl(0, 0%, 96%);
     color: #333;
+}
+body:hover{
+    background-color: rgb(255, 160, 52);
 }
 
 header {
