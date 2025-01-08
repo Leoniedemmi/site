@@ -55,14 +55,14 @@ table tbody tr:hover {
 a {
     text-decoration: none;
     color: white;
-    background-color: #ff4136;
+    background-color: #ffa600;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     font-size: 0.9rem;
 }
 
 a:hover {
-    background-color: #ff6b61;
+    background-color: #dd9001;
 }
 
 button {
@@ -104,6 +104,9 @@ footer p {
     margin: 0;
     font-size: 0.9rem;
 }
+.menu span{
+    color: #395686;
+}
 .menu a:hover{
-    background-color: #395686;
+    background-color: #ffa600;
 }

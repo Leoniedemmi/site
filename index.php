@@ -39,7 +39,7 @@
         <nav>
             <ul>
             <section class="mot">
-                <li><a href="index.php">Accueil</a></li>
+                <li><a href="index.php"></a></li>
                 <li><a href="randonner.php">ski randonner</a></li>
                 <li><a href="piste.php">ski de piste</a></li>
                 <li><a href="fond.php">ski de fond</a></li>
