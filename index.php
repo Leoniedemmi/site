@@ -52,7 +52,7 @@
         <section class="hero">
             <div class="video-background">
                 <video autoplay muted loop id="background-video">
-                <source src="videoski.m4v" type="video/mp4">
+                <source src="SKI.mp4" type="video/mp4">
                 </video>
     </div>
 
