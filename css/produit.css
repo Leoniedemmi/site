@@ -50,16 +50,3 @@ main {
     color: #555;
 }
 
-a {
-    background-color: #003f5c;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 3px;
-}
-
-a:hover {
-    background-color: #ffa600;
-}

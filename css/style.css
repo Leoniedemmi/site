@@ -136,8 +136,15 @@ header {
     background-color: #003f5c;
     color: white;
 }
+.mot{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+    background-color: #003f5c;
+}
 .mot a:hover{
-    color: #ffa600;
+        color: #ffa600;
 }
 
 .logo {

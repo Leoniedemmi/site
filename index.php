@@ -47,11 +47,6 @@
             </ul>
         </nav>
     </header>
-    <nav class="breadcrumb">
-        <ul>
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="produits.php">Produits</a></li>
-            <li>Ski X</li>
     <main>
         <section class="features">
             <link rel="stylesheet" href="css/produit.css">

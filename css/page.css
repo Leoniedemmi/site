@@ -113,6 +113,7 @@ main {
 
 /* Footer */
 footer {
+    position:relative;
     text-align: center;
     background-color: #003f5c;
     color: white;
