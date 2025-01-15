@@ -64,31 +64,31 @@
                 <img src="img/ski1.jpg" alt="Ski 1">
                 <h3>Ski X</h3>
                 <p>Prix : 299€</p>
-                <a href="product.php?id=1">Voir plus</a>
+                <a href="randonner.php">Voir plus</a>
             </div>
             <div class="product-card">
                 <img src="img/ski2.jpg" alt="Ski 2">
                 <h3>Ski Y</h3>
                 <p>Prix : 399€</p>
-                <a href="product.php?id=2">Voir plus</a>
+                <a href="piste.php">Voir plus</a>
             </div>
             <div class="product-card">
                 <img src="img/ski1.jpg" alt="Ski 1">
                 <h3>Ski X</h3>
                 <p>Prix : 299€</p>
-                <a href="product.php?id=1">Voir plus</a>
+                <a href="fond.php">Voir plus</a>
             </div>
             <div class="product-card">
                 <img src="img/ski2.jpg" alt="Ski 2">
                 <h3>Ski Y</h3>
                 <p>Prix : 399€</p>
-                <a href="product.php?id=2">Voir plus</a>
+                <a href="freestyle.php">Voir plus</a>
             </div>
             <div class="product-card">
                 <img src="img/ski1.jpg" alt="Ski 1">
                 <h3>Ski X</h3>
                 <p>Prix : 299€</p>
-                <a href="product.php?id=1">Voir plus</a>
+                <a href="snowboard.php">Voir plus</a>
             </div>
         </section>
     </main>

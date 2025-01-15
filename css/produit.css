@@ -50,17 +50,16 @@ main {
     color: #555;
 }
 
-.product-card form button {
-    background: #003f5c;
-    color: #fff;
+a {
+    background-color: #003f5c;
+    color: white;
     border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-size: 1rem;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    border-radius: 3px;
 }
 
-.product-card form button:hover {
-    background: #ffa600;
+a:hover {
+    background-color: #ffa600;
 }
