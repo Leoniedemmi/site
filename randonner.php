@@ -29,7 +29,7 @@
                 <!-- Produit 1 -->
                 <div class="product-card">
                     <img src="img/ski_piste_1.jpg" alt="Ski de Piste 1">
-                    <h3>Ski de Piste X1</h3>
+                    <h3><a href="descriptif1rando.php">Ski de Piste X1</a></h3>
                     <p>Prix : 450€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
