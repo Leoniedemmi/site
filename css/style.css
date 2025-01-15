@@ -211,6 +211,40 @@ body {
     line-height: 1.6;
 }
 
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 150%;
+    animation: scroll 20s linear infinite;
+}
+
+.product-card {
+    width: 25%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center; /* Centrer le contenu */
+}
+
+.product-card img {
+    width: 50px; /* Ajustez la largeur de l'image */
+    height: auto; /* Maintenir les proportions */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 
 
 
