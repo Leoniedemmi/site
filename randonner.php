@@ -26,10 +26,9 @@
         <section class="category">
             <h2>Nos produits "Ski de Piste"</h2>
             <div class="product-list">
-                <!-- Produit 1 -->
                 <div class="product-card">
-                    <img src="img/ski_piste_1.jpg" alt="Ski de Piste 1">
-                    <h3><a href="descriptif/descriptif1rando.php">Ski de Piste X1</a></h3>
+                    <a href="descriptif/descriptif1rando.php"><img src="img/ski_piste_1.jpg" alt="Ski de Piste 1"></a>
+                    <h3>Ski de Piste X1</h3>
                     <p>Prix : 450€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
@@ -38,10 +37,9 @@
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
                     </form>
                 </div>
-                <!-- Produit 2 -->
                 <div class="product-card">
-                    <img src="img/ski_piste_2.jpg" alt="Ski de Piste 2">
-                    <h3><a href="descriptif/descriptif2rando.php">Ski de Piste X1</a></h3>
+                    <a href="descriptif/descriptif2rando.php"><img src="img/ski_piste_1.jpg" alt="Ski de Piste 2"></a>
+                    <h3>Ski de Piste X1</h3>
                     <p>Prix : 520€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste2">
@@ -50,10 +48,9 @@
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
                     </form>
                 </div>
-                <!-- Produit 3 -->
                 <div class="product-card">
-                    <img src="img/ski_piste_3.jpg" alt="Ski de Piste 3">
-                    <h3><a href="descriptif/descriptif3rando.php">Ski de Piste X1</a></h3>
+                    <a href="descriptif/descriptif3rando.php"><img src="img/ski_piste_1.jpg" alt="Ski de Piste 3"></a>
+                    <h3>Ski de Piste X1</h3>
                     <p>Prix : 600€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste3">

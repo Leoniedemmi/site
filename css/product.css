@@ -9,7 +9,7 @@ body {
 
 /* En-tête */
 header {
-    background-color: #333;
+    background-color: #003f5c;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -100,7 +100,7 @@ form input[type="number"] {
 }
 
 form button {
-    background-color: #007bff;
+    background-color: #003f5c;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -110,7 +110,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #003f5c;
+    background-color: #ffa600;
 }
 
 /* Pied de page */
