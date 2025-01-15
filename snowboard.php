@@ -27,9 +27,9 @@
             <h2>Nos produits "Ski de Piste"</h2>
             <div class="product-list">
                 <div class="product-card">
-                    <a href="descriptif/descriptif1snow.php"><img src="img/ski_piste_1.jpg" alt="Ski de Piste 1"></a>
-                    <h3>Ski de Piste X1</h3>
-                    <p>Prix : 450€</p>
+                    <a href="descriptif/descriptif1snow.php"><img src="img/snowboard/JONES_WEAVER_543,80.png" alt="Ski de Piste 1"></a>
+                    <h3>JONES - WEAVER</h3>
+                    <p>Prix : 543,80€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
                         <input type="hidden" name="product_name" value="Ski de Piste X1">
@@ -38,9 +38,9 @@
                     </form>
                 </div>
                 <div class="product-card">
-                    <a href="descriptif/descriptif1snow.php"><img src="img/ski_piste_1.jpg" alt="Ski de Piste 1"></a>
-                    <h3>Ski de Piste X1</h3>
-                    <p>Prix : 520€</p>
+                    <a href="descriptif/descriptif1snow.php"><img src="img/snowboard/NIDECKER_ELLE_366,30.png" alt="Ski de Piste 1"></a>
+                    <h3>NIDECKER - ELLE</h3>
+                    <p>Prix : 366,30€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste2">
                         <input type="hidden" name="product_name" value="Ski de Piste Y2">
@@ -49,9 +49,9 @@
                     </form>
                 </div>
                 <div class="product-card">
-                <a href="descriptif/descriptif3snow.php"><img src="img/ski_piste_1.jpg" alt="Ski de Piste 3"></a>
-                <h3>Ski de Piste X1</h3>
-                    <p>Prix : 600€</p>
+                <a href="descriptif/descriptif3snow.php"><img src="img/snowboard/NIDECKER_ESCAPE_471,30.png" alt="Ski de Piste 3"></a>
+                <h3>NIDECKER - ESCAPE</h3>
+                    <p>Prix : 471,30€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste3">
                         <input type="hidden" name="product_name" value="Ski de Piste Z3">

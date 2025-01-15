@@ -27,9 +27,9 @@
             <h2>Nos produits "Ski de Piste"</h2>
             <div class="product-list">
                 <div class="product-card">
-                    <a href="descriptif/descriptif1rando.php"><img src="img/ski_piste_1.jpg" alt="Ski de Piste 1"></a>
-                    <h3>Ski de Piste X1</h3>
-                    <p>Prix : 450€</p>
+                    <a href="descriptif/descriptif1rando.php"><img src="img/ski_de_rando/VOLKL_RISEUP_384,90.png" alt="Ski de Piste 1"></a>
+                    <h3>VOLKL - RISE UP</h3>
+                    <p>Prix : 384,90€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
                         <input type="hidden" name="product_name" value="Ski de Piste X1">
@@ -38,9 +38,9 @@
                     </form>
                 </div>
                 <div class="product-card">
-                    <a href="descriptif/descriptif2rando.php"><img src="img/ski_piste_1.jpg" alt="Ski de Piste 2"></a>
-                    <h3>Ski de Piste X1</h3>
-                    <p>Prix : 520€</p>
+                    <a href="descriptif/descriptif2rando.php"><img src="img/ski_de_rando/ATOMIC_BACKLAND_391,90.png" alt="Ski de Piste 2"></a>
+                    <h3>ATOMIC - BACKLAND</h3>
+                    <p>Prix : 391,90€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste2">
                         <input type="hidden" name="product_name" value="Ski de Piste Y2">
@@ -49,9 +49,9 @@
                     </form>
                 </div>
                 <div class="product-card">
-                    <a href="descriptif/descriptif3rando.php"><img src="img/ski_piste_1.jpg" alt="Ski de Piste 3"></a>
-                    <h3>Ski de Piste X1</h3>
-                    <p>Prix : 600€</p>
+                    <a href="descriptif/descriptif3rando.php"><img src="img/ski_de_rando/ZAG_UBAC_694,90.png" alt="Ski de Piste 3"></a>
+                    <h3>ZAG - UBAC (+ Monture)</h3>
+                    <p>Prix : 694,90€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste3">
                         <input type="hidden" name="product_name" value="Ski de Piste Z3">
