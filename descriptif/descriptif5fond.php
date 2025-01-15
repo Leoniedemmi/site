@@ -12,13 +12,13 @@
         <h1>Magasin de Ski</h1>
         <nav>
             <ul>
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="randonner.php">Ski de Randonnée</a></li>
-                <li><a href="piste.php">Ski de Piste</a></li>
-                <li><a href="fond.php">Ski de Fond</a></li>
-                <li><a href="freestyle.php">Ski Freestyle</a></li>
-                <li><a href="snowboard.php">Snowboard</a></li>
-                <li><a href="panier.php">Panier</a></li>
+                <li><a href="../index.php">Accueil</a></li>
+                <li><a href="../randonner.php">Ski de Randonnée</a></li>
+                <li><a href="../piste.php">Ski de Piste</a></li>
+                <li><a href="..fond.php">Ski de Fond</a></li>
+                <li><a href="../freestyle.php">Ski Freestyle</a></li>
+                <li><a href="..snowboard.php">Snowboard</a></li>
+                <li><a href="../panier.php">Panier</a></li>
             </ul>
         </nav>
     </header>

@@ -140,7 +140,7 @@ footer:before {
     display: block;
     width: 100%;
     height: 2px;
-    background: linear-gradient(to right, #007bff, #00ff6a, #ff0056, #007bff);
+    background: linear-gradient(to right, #007bff, #00ddff, #003f5c, #d9ecff);
     animation: slide 4s linear infinite;
     position: absolute;
     bottom: 0;

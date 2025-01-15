@@ -29,7 +29,7 @@
                 <!-- Produit 1 -->
                 <div class="product-card">
                     <img src="img/ski_piste_1.jpg" alt="Ski de Piste 1">
-                    <h3>Ski de Piste X1</h3>
+                    <h3><a href="descriptif/descriptif1free.php">Ski de Piste X1</a></h3>
                     <p>Prix : 450€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
@@ -41,7 +41,7 @@
                 <!-- Produit 2 -->
                 <div class="product-card">
                     <img src="img/ski_piste_2.jpg" alt="Ski de Piste 2">
-                    <h3>Ski de Piste Y2</h3>
+                    <h3><a href="descriptif/descriptif1free.php">Ski de Piste X1</a></h3>
                     <p>Prix : 520€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste2">
@@ -53,7 +53,7 @@
                 <!-- Produit 3 -->
                 <div class="product-card">
                     <img src="img/ski_piste_3.jpg" alt="Ski de Piste 3">
-                    <h3>Ski de Piste Z3</h3>
+                    <h3><a href="descriptif/descriptif1free.php">Ski de Piste X1</a></h3>
                     <p>Prix : 600€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste3">
