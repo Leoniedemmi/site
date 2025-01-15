@@ -59,28 +59,6 @@
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
                     </form>
                 </div>
-                <div class="product-card">
-                    <a href="descriptif/descriptif4piste.php"><img src="img/ski_piste_1.jpg" alt="Ski de Piste 4"></a>  
-                    <h3>Ski de Piste X1</h3>
-                    <p>Prix : 600€</p>
-                    <form action="panier.php" method="POST">
-                        <input type="hidden" name="product_id" value="piste3">
-                        <input type="hidden" name="product_name" value="Ski de Piste Z3">
-                        <input type="hidden" name="product_price" value="600">
-                        <button type="submit" name="add_to_cart">Ajouter au panier</button>
-                    </form>
-                </div>
-                <div class="product-card">
-                    <a href="descriptif/descriptif5piste.php"><img src="img/ski_piste_1.jpg" alt="Ski de Piste 5"></a>  
-                    <h3>Ski de Piste X1</h3>
-                    <p>Prix : 600€</p>
-                    <form action="panier.php" method="POST">
-                        <input type="hidden" name="product_id" value="piste3">
-                        <input type="hidden" name="product_name" value="Ski de Piste Z3">
-                        <input type="hidden" name="product_price" value="600">
-                        <button type="submit" name="add_to_cart">Ajouter au panier</button>
-                    </form>
-                </div>
             </div>
         </section>
     </main>
