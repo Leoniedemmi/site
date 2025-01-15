@@ -39,7 +39,6 @@
         <nav>
             <ul>
             <section class="mot">
-                <li><a href="index.php"></a></li>
                 <li><a href="randonner.php">ski randonner</a></li>
                 <li><a href="piste.php">ski de piste</a></li>
                 <li><a href="fond.php">ski de fond</a></li>
@@ -48,15 +47,12 @@
             </ul>
         </nav>
     </header>
+    <nav class="breadcrumb">
+        <ul>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="produits.php">Produits</a></li>
+            <li>Ski X</li>
     <main>
-        <section class="hero">
-            <div class="video-background">
-                <video autoplay muted loop id="background-video">
-                <source src="SKI.mp4" type="video/mp4">
-                </video>
-    </div>
-
-        </section>
         <section class="features">
             <link rel="stylesheet" href="css/produit.css">
             <h2>Nos produits</h2>
