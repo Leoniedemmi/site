@@ -24,7 +24,7 @@
     </header>
     <main>
         <section class="category">
-            <h2>Nos produits "Ski de Piste"</h2>
+            <h2>Nos produits "Ski de Randonnée"</h2>
             <div class="product-list">
                 <div class="product-card">
                     <a href="descriptif/descriptif1rando.php"><img src="img/ski_de_rando/VOLKL_RISEUP_384,90.png" alt="Ski de Piste 1"></a>

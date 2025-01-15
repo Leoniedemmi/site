@@ -24,7 +24,7 @@
     </header>
     <main>
         <section class="category">
-            <h2>Nos produits "Ski de Piste"</h2>
+            <h2>Nos produits "SNowboard"</h2>
             <div class="product-list">
                 <div class="product-card">
                     <a href="descriptif/descriptif1snow.php"><img src="img/snowboard/JONES_WEAVER_543,80.png" alt="Ski de Piste 1"></a>
@@ -38,7 +38,7 @@
                     </form>
                 </div>
                 <div class="product-card">
-                    <a href="descriptif/descriptif1snow.php"><img src="img/snowboard/NIDECKER_ELLE_366,30.png" alt="Ski de Piste 1"></a>
+                    <a href="descriptif/descriptif2snow.php"><img src="img/snowboard/NIDECKER_ELLE_366,30.png" alt="Ski de Piste 1"></a>
                     <h3>NIDECKER - ELLE</h3>
                     <p>Prix : 366,30€</p>
                     <form action="panier.php" method="POST">

@@ -25,13 +25,13 @@
     <main>
         <section class="product-detail">
             <div class="product-container">
-                <img src="ski.avif" alt="Ski de Piste X1" class="product-image">
+                <img src="../img/ski_de_piste/ROSSIGNOL_NOVA4_291,90.png" alt="Ski de Piste X1" class="product-image">
                 <div class="product-info">
-                    <h2>Ski de Piste X1</h2>
-                    <p>Prix : 450€</p>
+                    <h2>ROSSIGNOL - NOVA 4</h2>
+                    <p>Prix : 291,90€</p>
                     <p>
-                        Le Ski de Piste X1 est conçu pour les skieurs exigeants, offrant une excellente stabilité, 
-                        maniabilité et performance sur les pistes damées. Idéal pour les amateurs comme pour les experts.
+                        ROSSIGNOL est une marque faite pour les débutant. Les "NOVA 4" sont les skis les plus avancés dans la gamme débutante offrant une stabilité équilibrée, 
+                        maniabilité sur les pistes damées. Idéal pour les novices comme pour les experts.
                     </p>
                     <form action="../quentite.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">

@@ -25,12 +25,12 @@
     <main>
         <section class="product-detail">
             <div class="product-container">
-                <img src="ski.avif" alt="Ski de Piste X1" class="product-image">
+                <img src="../img/snowboard/NIDECKER_ELLE_366,30.png" alt="Ski de Piste X1" class="product-image">
                 <div class="product-info">
-                    <h2>Ski de Piste X1</h2>
-                    <p>Prix : 450€</p>
+                    <h2>NIDECKER - ELLE</h2>
+                    <p>Prix : 366,30€</p>
                     <p>
-                        Le Ski de Piste X1 est conçu pour les skieurs exigeants, offrant une excellente stabilité, 
+                        Le snowboard "ELLE" est conçu pour les skieurs exigeants, offrant une excellente stabilité, 
                         maniabilité et performance sur les pistes damées. Idéal pour les amateurs comme pour les experts.
                     </p>
                     <form action="../quentite.php" method="POST">

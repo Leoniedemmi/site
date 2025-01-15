@@ -25,12 +25,12 @@
     <main>
         <section class="product-detail">
             <div class="product-container">
-                <img src="ski.avif" alt="Ski de Piste X1" class="product-image">
+                <img src="../img/ski_freestyle/ARV_84_253,90.png" alt="Ski de Piste X1" class="product-image">
                 <div class="product-info">
-                    <h2>Ski de Piste X1</h2>
-                    <p>Prix : 450€</p>
+                    <h2>ARV - 84</h2>
+                    <p>Prix : 253,90€</p>
                     <p>
-                        Le Ski de Piste X1 est conçu pour les skieurs exigeants, offrant une excellente stabilité, 
+                        Les skis freestyle "84" sont conçu pour les skieurs exigeants, offrant une excellente stabilité, 
                         maniabilité et performance sur les pistes damées. Idéal pour les amateurs comme pour les experts.
                     </p>
                     <form action="../quentite.php" method="POST">

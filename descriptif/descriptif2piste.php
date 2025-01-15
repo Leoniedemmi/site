@@ -25,13 +25,13 @@
     <main>
         <section class="product-detail">
             <div class="product-container">
-                <img src="ski.avif" alt="Ski de Piste X1" class="product-image">
+                <img src="../img/ski_de_piste/HEAD_SHAPE_324,90.png" alt="Ski de Piste X1" class="product-image">
                 <div class="product-info">
-                    <h2>Ski de Piste X1</h2>
-                    <p>Prix : 450€</p>
+                    <h2>HEAD - SHAPE</h2>
+                    <p>Prix : 324,90€</p>
                     <p>
-                        Le Ski de Piste X1 est conçu pour les skieurs exigeants, offrant une excellente stabilité, 
-                        maniabilité et performance sur les pistes damées. Idéal pour les amateurs comme pour les experts.
+                        Les skis "SHAPE" de la marque HEAD sont conçu pour les skieurs dénutants, offrant une excellente stabilité, 
+                        maniabilité sur les pistes damées. Idéal pour les novices comme les plus expérimentés.
                     </p>
                     <form action="../quentite.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
