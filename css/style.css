@@ -84,11 +84,11 @@ nav ul li a {
 }
 
 footer {
+    position: relative;
     text-align: center;
     background-color: #003f5c;
     color: white;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }

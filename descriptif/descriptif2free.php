@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ski de Piste X1</title>
     <link rel="stylesheet" href="../css/product.css">
+    <?php include '../ariane.php'; ?>
+    <link rel="stylesheet" href="../css/ariane.css">
 </head>
 <body>
     <header>
@@ -22,6 +24,10 @@
             </ul>
         </nav>
     </header>
+    <div class="container">
+            <?php echo generate_breadcrumb(); ?>
+            <p>Vous êtes sur la page <?php echo ucfirst(str_replace('_', ' ', pathinfo($current_page, PATHINFO_FILENAME))); ?></p>
+    </div>
     <main>
         <section class="product-detail">
             <div class="product-container">

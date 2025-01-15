@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem; /* Réduction de la taille globale du texte */
+}
+
+.container {
+    max-width: 450px; /* Réduction de la largeur maximale */
+    margin: 30px auto; /* Espacement réduit autour du conteneur */
+    padding: 15px; /* Réduction du padding */
+    background-color: #ffffff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Réduction de l'ombre */
+    border-radius: 0.25rem; /* Ajout d'un léger arrondi pour un effet esthétique */
+}
+
+/* Style pour le fil d'Ariane */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px 0; /* Taille réduite */
+    margin: 0;
+    list-style: none;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    font-size: 0.9rem; /* Texte plus petit */
+}
+
+.breadcrumb-item {
+    display: flex;
+    align-items: center;
+    color: #007bff;
+    flex-shrink: 0; /* Empêche la réduction excessive des éléments */
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    display: inline-block;
+    padding: 0 5px;
+    color: #6c757d;
+}
+
+.breadcrumb-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;
+}
+
+/* Adaptation à la taille de l'écran */
+@media (max-width: 576px) {
+    .breadcrumb {
+        font-size: 0.8rem; /* Texte encore plus petit sur petits écrans */
+        padding: 6px 0; /* Réduction de l'espace autour */
+    }
+
+    .breadcrumb-item + .breadcrumb-item::before {
+        padding: 0 3px; /* Espacement réduit pour les petits écrans */
+    }
+
+    .container {
+        max-width: 90%; /* Largeur adaptative pour petits écrans */
+        padding: 10px; /* Réduction du padding */
+    }
+}

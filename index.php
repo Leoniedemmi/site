@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ça Glisse</title>
     <link rel="stylesheet" href="css/style.css">
+    <?php include 'ariane.php'; $current_page = basename($_SERVER['PHP_SELF']); ?>
+    <link rel="stylesheet" href="css/ariane.css">
 </head>
 <head>
     <meta charset="UTF-8">
@@ -47,6 +49,11 @@
             </ul>
         </nav>
     </header>
+    </section>
+    <div class="container">
+            <?php echo generate_breadcrumb(); ?>
+            <p>Vous êtes sur la page <?php echo ucfirst(str_replace('_', ' ', pathinfo($current_page, PATHINFO_FILENAME))); ?></p>
+    </div>
     <main>
         <section class="features">
             <link rel="stylesheet" href="css/produit.css">
