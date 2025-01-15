@@ -21,7 +21,7 @@
 
         <!-- Titre -->
         <div class="title">
-            Ça Glisse
+            Ça Glisse pas
         </div>
 
         <!-- Panier -->
