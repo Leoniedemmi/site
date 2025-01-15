@@ -27,9 +27,9 @@
             <h2>Nos produits "Ski de Fond"</h2>
             <div class="product-list">
                 <div class="product-card">
-                    <a href="descriptif/descriptif1fond.php"><img src="img/ski_freestyle/ARV_84_253,90.png" alt="Ski de Piste 1"></a>
-                    <h3>ARV - 84</h3>
-                    <p>Prix : 253,90€</p>
+                    <a href="descriptif/descriptif1fond.php"><img src="img/ski_de_fond/ATOMIC_PRO_239,99.png" alt="Ski de Piste 1"></a>
+                    <h3>ATOMIC - PRO</h3>
+                    <p>Prix : 239,99€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
                         <input type="hidden" name="product_name" value="Ski de Piste X1">
@@ -38,9 +38,9 @@
                     </form>
                 </div>
                 <div class="product-card">
-                    <a href="descriptif/descriptif2fond.php"><img src="img/ski_freestyle/FACTION_PRODIGY2_489,90.png" alt="Ski de Piste 2"></a>  
-                    <h3>FACTION - PRODIGY 2</h3>
-                    <p>Prix : 489,90€</p>
+                    <a href="descriptif/descriptif2fond.php"><img src="img/ski_de_fond/FISCHER_AEROLITE90_399,00.png" alt="Ski de Piste 2"></a>  
+                    <h3>FISCHER - AEROLITE 90</h3>
+                    <p>Prix : 399,00€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste2">
                         <input type="hidden" name="product_name" value="Ski de Piste Y2">
@@ -49,9 +49,9 @@
                     </form>
                 </div>
                 <div class="product-card">
-                    <a href="descriptif/descriptif3fond.php"><img src="img/ski_freestyle/ROSSIGNOL_EXPERIENCE_291,90.png" alt="Ski de Piste 3"></a>  
-                    <h3>ROSSIGNOL - EXPERIENCE</h3>
-                    <p>Prix : 291,90€</p>
+                    <a href="descriptif/descriptif3fond.php"><img src="img/ski_de_fond/SALOMON_RS10_307,99.png" alt="Ski de Piste 3"></a>  
+                    <h3>SALOMON - RS10</h3>
+                    <p>Prix : 307,99€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste3">
                         <input type="hidden" name="product_name" value="Ski de Piste Z3">
