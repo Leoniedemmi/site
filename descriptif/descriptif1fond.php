@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ski de Piste X1</title>
-    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="../css/product.css">
 </head>
 <body>
     <header>
@@ -32,7 +33,7 @@
                         Le Ski de Piste X1 est conçu pour les skieurs exigeants, offrant une excellente stabilité, 
                         maniabilité et performance sur les pistes damées. Idéal pour les amateurs comme pour les experts.
                     </p>
-                    <form action="ajout_panier.php" method="POST">
+                    <form action="../quentite.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
                         <input type="hidden" name="product_name" value="Ski de Piste X1">
                         <input type="hidden" name="product_price" value="450">

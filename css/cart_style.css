@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #395686;
+    background-color: #003f5c;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -42,7 +42,7 @@ table th, table td {
 }
 
 table th {
-    background-color: #395686;
+    background-color: #003f5c;
     color: white;
     font-weight: bold;
 }
@@ -94,18 +94,35 @@ button:hover {
 /* Footer */
 footer {
     text-align: center;
-    padding: 1rem;
-    background-color: #333;
+    background-color: #003f5c;
     color: white;
-    margin-top: 2rem;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
 }
 
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
+footer:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #007bff, #00ddff, #003f5c, #d9ecff);
+    animation: slide 4s linear infinite;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 .menu span{
-    color: #395686;
+    color: #003f5c;
 }
 .menu a:hover{
     background-color: #ffa600;

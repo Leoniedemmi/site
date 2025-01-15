@@ -110,12 +110,12 @@ form button {
 }
 
 form button:hover {
-    background-color: #0056b3;
+    background-color: #003f5c;
 }
 
 /* Pied de page */
 footer {
-    background-color: #333;
+    background-color: #003f5c;
     color: white;
     text-align: center;
     padding: 10px 0;
