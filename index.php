@@ -31,15 +31,17 @@
 
     <section class="header">
         <header>
+            <section class="mot">
             <nav>
                 <ul>
-                    <li><a href="randonner.php">ski randonner</a></li>
+                    <li><a href="randonner.php">ski randonnée</a></li>
                     <li><a href="piste.php">ski de piste</a></li>
                     <li><a href="fond.php">ski de fond</a></li>
                     <li><a href="freestyle.php">ski freestyle</a></li>
                     <li><a href="snowboard.php">snowboard</a></li>
                 </ul>
             </nav>
+            </section>
         </header>
     </section>
 
@@ -73,5 +75,8 @@
     </main>
 
     <script src="js/carousel.js"></script>
+    <footer>
+        <p>&copy; 2024 Magasin de Ski</p>
+    </footer>
 </body>
 </html>

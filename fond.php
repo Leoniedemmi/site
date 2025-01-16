@@ -38,7 +38,7 @@
                     <p>Prix : 239,99€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
-                        <input type="hidden" name="product_name" value="Ski de Piste X1">
+                        <input type="hidden" name="product_name" value="Ski de fond Atomic pro">
                         <input type="hidden" name="product_price" value="450">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
                     </form>
@@ -49,7 +49,7 @@
                     <p>Prix : 399,00€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste2">
-                        <input type="hidden" name="product_name" value="Ski de Piste Y2">
+                        <input type="hidden" name="product_name" value="Ski de fond Fischer Aerolite 90">
                         <input type="hidden" name="product_price" value="520">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
                     </form>
@@ -60,7 +60,7 @@
                     <p>Prix : 307,99€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste3">
-                        <input type="hidden" name="product_name" value="Ski de Piste Z3">
+                        <input type="hidden" name="product_name" value="Ski de fond Salomon RS10">
                         <input type="hidden" name="product_price" value="600">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
                     </form>

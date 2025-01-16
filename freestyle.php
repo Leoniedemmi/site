@@ -38,7 +38,7 @@
                     <p>Prix : 253,90€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
-                        <input type="hidden" name="product_name" value="Ski de Piste X1">
+                        <input type="hidden" name="product_name" value="Ski freestyle ARV 84">
                         <input type="hidden" name="product_price" value="450">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
                     </form>
@@ -49,7 +49,7 @@
                     <p>Prix : 489,90€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste2">
-                        <input type="hidden" name="product_name" value="Ski de Piste Y2">
+                        <input type="hidden" name="product_name" value="Ski freestyle Faction Prodigy 2">
                         <input type="hidden" name="product_price" value="520">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
                     </form>
@@ -60,7 +60,7 @@
                     <p>Prix : 291,90€</p>
                     <form action="panier.php" method="POST">
                         <input type="hidden" name="product_id" value="piste3">
-                        <input type="hidden" name="product_name" value="Ski de Piste Z3">
+                        <input type="hidden" name="product_name" value="Ski freestyle Rossignol Experience">
                         <input type="hidden" name="product_price" value="600">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
                     </form>
