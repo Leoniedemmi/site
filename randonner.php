@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <h1>Ski de Piste</h1>
+        <h1>Randonnée</h1>
         <nav>
             <ul>
                 <li><a href="index.php">Accueil</a></li>
