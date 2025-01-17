@@ -41,7 +41,7 @@
                     </p>
                     <form action="../quantite.php" method="GET">
                         <input type="hidden" name="product_id" value="piste1">
-                        <input type="hidden" name="product_name" value="Ski de Piste X1">
+                        <input type="hidden" name="product_name" value="Ski de fond Atomic Pro">
                         <input type="hidden" name="product_price" value="450">
                         <label for="quantity">Quantité :</label>
                         <input type="number" id="quantity" name="quantity" value="1" min="1" max="10" required>

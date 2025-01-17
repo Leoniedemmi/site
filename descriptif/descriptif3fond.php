@@ -31,7 +31,7 @@
     <main>
         <section class="product-detail">
             <div class="product-container">
-                <img src="../img/ski_de_fond/SALOMON_RS10_307,99.png" alt="Ski de Piste X1" class="product-image">
+                <img src="../img/ski_de_fond/SALOMON_RS10_307,99.png" alt="Ski de piste X1" class="product-image">
                 <div class="product-info">
                     <h2>SALOMON - RS10</h2>
                     <p>Prix : 307,99€</p>
@@ -41,7 +41,7 @@
                     </p>
                     <form action="../quantite.php" method="GET">
                         <input type="hidden" name="product_id" value="piste1">
-                        <input type="hidden" name="product_name" value="Ski de Piste X1">
+                        <input type="hidden" name="product_name" value="Ski de fond Salomon RS10">
                         <input type="hidden" name="product_price" value="450">
                         <label for="quantity">Quantité :</label>
                         <input type="number" id="quantity" name="quantity" value="1" min="1" max="10" required>
