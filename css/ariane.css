@@ -17,32 +17,44 @@ body {
 
 /* Style pour le fil d'Ariane */
 .breadcrumb {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 8px 0; /* Taille réduite */
+    position: fixed;
+    top: 0;
+    left: 0; /* Déplace le fil d'Ariane à gauche */
+    width: 120px; /* Réduction de la largeur */
+    background-color: #007bff; /* Bleu du header */
+    border-radius: 0 0.25rem 0.25rem 0; /* Arrondi adapté pour la gauche */
+    font-size: 0.8rem; /* Texte plus petit */
+    padding: 6px; /* Réduction de l'espace intérieur */
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1); /* Ombre plus légère */
+    z-index: 1000;
+    height: 100%; /* Prend toute la hauteur de l'écran */
+    overflow-y: auto; /* Ajoute une barre de défilement si nécessaire */
+}
+
+.breadcrumb ol {
     margin: 0;
+    padding: 0;
     list-style: none;
-    background-color: #f8f9fa;
-    border-radius: 0.25rem;
-    font-size: 0.9rem; /* Texte plus petit */
 }
 
 .breadcrumb-item {
     display: flex;
     align-items: center;
-    color: #007bff;
+    color: #fff; /* Texte en blanc */
     flex-shrink: 0; /* Empêche la réduction excessive des éléments */
+    margin-bottom: 5px;
+    font-size: 0.75rem; /* Texte encore plus petit */
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
     content: ">";
     display: inline-block;
-    padding: 0 5px;
-    color: #6c757d;
+    padding: 0 3px; /* Espacement réduit pour les séparateurs */
+    color: #fff; /* Séparateur en blanc */
 }
 
 .breadcrumb-item a {
-    color: #007bff;
+    color: #fff; /* Liens en blanc */
     text-decoration: none;
 }
 
@@ -51,22 +63,18 @@ body {
 }
 
 .breadcrumb-item.active {
-    color: #6c757d;
+    color: #6c757d; /* Couleur différente pour l'élément actif */
 }
 
 /* Adaptation à la taille de l'écran */
 @media (max-width: 576px) {
     .breadcrumb {
-        font-size: 0.8rem; /* Texte encore plus petit sur petits écrans */
-        padding: 6px 0; /* Réduction de l'espace autour */
+        font-size: 0.7rem; /* Texte encore plus petit sur petits écrans */
+        padding: 4px 6px; /* Réduction de l'espace autour */
+        width: 100px; /* Largeur encore plus réduite pour petits écrans */
     }
 
     .breadcrumb-item + .breadcrumb-item::before {
-        padding: 0 3px; /* Espacement réduit pour les petits écrans */
-    }
-
-    .container {
-        max-width: 90%; /* Largeur adaptative pour petits écrans */
-        padding: 10px; /* Réduction du padding */
+        padding: 0 2px; /* Espacement réduit pour les petits écrans */
     }
 }
