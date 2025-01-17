@@ -39,7 +39,7 @@
                         Les skis "SHAPE" de la marque HEAD sont conçu pour les skieurs dénutants, offrant une excellente stabilité, 
                         maniabilité sur les pistes damées. Idéal pour les novices comme les plus expérimentés.
                     </p>
-                    <form action="../quantite.php" method="GET">
+                    <form action="../quantite.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
                         <input type="hidden" name="product_name" value="Ski de Piste Head Shape">
                         <input type="hidden" name="product_price" value="450">

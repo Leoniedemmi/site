@@ -39,7 +39,7 @@
                         Les skis de piste "REBELS" de la marque HEAD sont conçu pour les skieurs exigeants, offrant une excellente stabilité, 
                         maniabilité et performance sur les pistes damées. Idéal pour les amateurs comme pour les experts.
                     </p>
-                    <form action="../quantite.php" method="GET">
+                    <form action="../quantite.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
                         <input type="hidden" name="product_name" value="Ski de Piste Head Rebels">
                         <input type="hidden" name="product_price" value="450">

@@ -39,7 +39,7 @@
                         ROSSIGNOL est une marque faite pour les débutant. Les "NOVA 4" sont les skis les plus avancés dans la gamme débutante offrant une stabilité équilibrée, 
                         maniabilité sur les pistes damées. Idéal pour les novices comme pour les experts.
                     </p>
-                    <form action="../quantite.php" method="GET">
+                    <form action="../quantite.php" method="POST">
                         <input type="hidden" name="product_id" value="piste1">
                         <input type="hidden" name="product_name" value="Ski de Piste Rossignol Nova 4">
                         <input type="hidden" name="product_price" value="450">
