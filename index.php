@@ -24,7 +24,7 @@
         <!-- Panier -->
         <div class="cart">
             <a href="panier.php" title="Voir le panier">
-                <img src="image-removebg-preview-9.png" onmouseover="this.src='cadi@3x.png'" onmouseout="this.src='image-removebg-preview-9.png'" width=50px height=50px alt="Panier" />
+            <img src="image-removebg-preview-9.png" width=60px height=60px alt="Panier" />
             </a>
         </div>
     </header>
