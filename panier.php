@@ -8,10 +8,10 @@ if (!isset($_SESSION['cart'])) {
 }
 
 // Ajouter un produit au panier
-if (isset($_POST['add_to_cart'])) {
-    $product_id = $_POST['product_id'];
-    $product_name = $_POST['product_name'];
-    $product_price = $_POST['product_price'];
+if (isset($_REQUEST['add_to_cart'])) {
+    $product_id = $_REQUEST['product_id'];
+    $product_name = $_REQUEST['product_name'];
+    $product_price = $_REQUEST['product_price'];
 
     // Vérifier si le produit est déjà dans le panier
     if (isset($_SESSION['cart'][$product_id])) {

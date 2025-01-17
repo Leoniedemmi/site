@@ -36,7 +36,7 @@
                     <a href="descriptif/descriptif1snow.php"><img src="img/snowboard/JONES_WEAVER_543,80.png" alt="Ski de Piste 1"></a>
                     <h3>JONES - WEAVER</h3>
                     <p>Prix : 543,80€</p>
-                    <form action="panier.php" method="POST">
+                    <form action="panier.php" method="GET">
                         <input type="hidden" name="product_id" value="snowboard1">
                         <input type="hidden" name="product_name" value="Snowboard Jones Weaver">
                         <input type="hidden" name="product_price" value="450">
@@ -47,7 +47,7 @@
                     <a href="descriptif/descriptif2snow.php"><img src="img/snowboard/NIDECKER_ELLE_366,30.png" alt="Ski de Piste 1"></a>
                     <h3>NIDECKER - ELLE</h3>
                     <p>Prix : 366,30€</p>
-                    <form action="panier.php" method="POST">
+                    <form action="panier.php" method="GET">
                         <input type="hidden" name="product_id" value="snowboard2">
                         <input type="hidden" name="product_name" value="Snowboard nidecker elle">
                         <input type="hidden" name="product_price" value="520">
@@ -58,7 +58,7 @@
                 <a href="descriptif/descriptif3snow.php"><img src="img/snowboard/NIDECKER_ESCAPE_471,30.png" alt="Ski de Piste 3"></a>
                 <h3>NIDECKER - ESCAPE</h3>
                     <p>Prix : 471,30€</p>
-                    <form action="panier.php" method="POST">
+                    <form action="panier.php" method="GET">
                         <input type="hidden" name="product_id" value="snowboard3">
                         <input type="hidden" name="product_name" value="Snowboard nidecker escape">
                         <input type="hidden" name="product_price" value="600">

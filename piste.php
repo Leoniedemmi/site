@@ -36,7 +36,7 @@
                     <a href="descriptif/descriptif1piste.php"><img src="img/ski_de_piste/HEAD_REBELS_389,90.png" alt="Ski de Piste 1"></a>  
                     <h3>HEAD - REBELS</h3>
                     <p>Prix : 389,90€</p>
-                    <form action="panier.php" method="POST">
+                    <form action="panier.php" method="GET">
                         <input type="hidden" name="product_id" value="piste1">
                         <input type="hidden" name="product_name" value="Ski de Piste Head Rebels">
                         <input type="hidden" name="product_price" value="450">
@@ -47,7 +47,7 @@
                     <a href="descriptif/descriptif2piste.php"><img src="img/ski_de_piste/HEAD_SHAPE_324,90.png" alt="Ski de Piste 2"></a>  
                     <h3>HEAD - SHAPE</h3>
                     <p>Prix : 324,90€</p>
-                    <form action="panier.php" method="POST">
+                    <form action="panier.php" method="GET">
                         <input type="hidden" name="product_id" value="piste2">
                         <input type="hidden" name="product_name" value="Ski de Piste Head Shape">
                         <input type="hidden" name="product_price" value="520">
@@ -58,7 +58,7 @@
                     <a href="descriptif/descriptif3piste.php"><img src="img/ski_de_piste/ROSSIGNOL_NOVA4_291,90.png" alt="Ski de Piste 3"></a>  
                     <h3>ROSSIGNOL - NOVA 4</h3>
                     <p>Prix : 291,90€</p>
-                    <form action="panier.php" method="POST">
+                    <form action="panier.php" method="GET">
                         <input type="hidden" name="product_id" value="piste3">
                         <input type="hidden" name="product_name" value="Ski de Piste Rossignol Nova 4">
                         <input type="hidden" name="product_price" value="600">

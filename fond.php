@@ -36,7 +36,7 @@
                     <a href="descriptif/descriptif1fond.php"><img src="img/ski_de_fond/ATOMIC_PRO_239,99.png" alt="Ski de Piste 1"></a>
                     <h3>ATOMIC - PRO</h3>
                     <p>Prix : 239,99€</p>
-                    <form action="panier.php" method="POST">
+                    <form action="panier.php" method="GET">
                         <input type="hidden" name="product_id" value="pfond">
                         <input type="hidden" name="product_name" value="Ski de fond Atomic pro">
                         <input type="hidden" name="product_price" value="450">
@@ -47,7 +47,7 @@
                     <a href="descriptif/descriptif2fond.php"><img src="img/ski_de_fond/FISCHER_AEROLITE90_399,00.png" alt="Ski de Piste 2"></a>  
                     <h3>FISCHER - AEROLITE 90</h3>
                     <p>Prix : 399,00€</p>
-                    <form action="panier.php" method="POST">
+                    <form action="panier.php" method="GET">
                         <input type="hidden" name="product_id" value="fond2">
                         <input type="hidden" name="product_name" value="Ski de fond Fischer Aerolite 90">
                         <input type="hidden" name="product_price" value="520">
@@ -58,7 +58,7 @@
                     <a href="descriptif/descriptif3fond.php"><img src="img/ski_de_fond/SALOMON_RS10_307,99.png" alt="Ski de Piste 3"></a>  
                     <h3>SALOMON - RS10</h3>
                     <p>Prix : 307,99€</p>
-                    <form action="panier.php" method="POST">
+                    <form action="panier.php" method="GET">
                         <input type="hidden" name="product_id" value="fond3">
                         <input type="hidden" name="product_name" value="Ski de fond Salomon RS10">
                         <input type="hidden" name="product_price" value="600">

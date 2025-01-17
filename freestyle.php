@@ -36,7 +36,7 @@
                     <a href="descriptif/descriptif1free.php"><img src="img/ski_freestyle/ARV_84_253,90.png" alt="Ski de Piste 1"></a>
                     <h3>ARV - 84</h3>
                     <p>Prix : 253,90€</p>
-                    <form action="panier.php" method="POST">
+                    <form action="panier.php" method="GET">
                         <input type="hidden" name="product_id" value="freestyle1">
                         <input type="hidden" name="product_name" value="Ski freestyle ARV 84">
                         <input type="hidden" name="product_price" value="450">
@@ -47,7 +47,7 @@
                     <a href="descriptif/descriptif2free.php"><img src="img/ski_freestyle/FACTION_PRODIGY2_489,90.png" alt="Ski de Piste 2"></a>  
                     <h3>FACTION - PRODIGY 2</h3>
                     <p>Prix : 489,90€</p>
-                    <form action="panier.php" method="POST">
+                    <form action="panier.php" method="GET">
                         <input type="hidden" name="product_id" value="freestyle2">
                         <input type="hidden" name="product_name" value="Ski freestyle Faction Prodigy 2">
                         <input type="hidden" name="product_price" value="520">
@@ -58,7 +58,7 @@
                     <a href="descriptif/descriptif3free.php"><img src="img/ski_freestyle/ROSSIGNOL_EXPERIENCE_291,90.png" alt="Ski de Piste 3"></a>  
                     <h3>ROSSIGNOL - EXPERIENCE</h3>
                     <p>Prix : 291,90€</p>
-                    <form action="panier.php" method="POST">
+                    <form action="panier.php" method="GET">
                         <input type="hidden" name="product_id" value="freestyle3">
                         <input type="hidden" name="product_name" value="Ski freestyle Rossignol Experience">
                         <input type="hidden" name="product_price" value="600">

@@ -39,7 +39,7 @@
                         Les skis freestyle "PRODIGY 2" sont conçu pour les skieurs exigeants, offrant une excellente stabilité, 
                         maniabilité et performance sur les pistes damées. Idéal pour les amateurs comme pour les experts.
                     </p>
-                    <form action="../quentite.php" method="POST">
+                    <form action="../quantite.php" method="GET">
                         <input type="hidden" name="product_id" value="piste1">
                         <input type="hidden" name="product_name" value="Ski de Piste X1">
                         <input type="hidden" name="product_price" value="450">
