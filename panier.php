@@ -82,6 +82,7 @@ if (isset($_GET['remove'])) {
                 </tbody>
             </table>
             <p>Total : <?php echo number_format($total, 2); ?>€</p>
+            <a href="paiement.php" class="btn-payment">Passer au paiement</a>
         <?php else: ?>
             <p>Votre panier est vide.</p>
         <?php endif; ?>
