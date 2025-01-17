@@ -244,7 +244,17 @@ body {
         transform: translateX(-100%);
     }
 }
+/* ...existing code... */
 
+.legal-link {
+    color: #fff; /* Couleur blanche */
+    text-decoration: none;
+}
 
+.legal-link:hover {
+    text-decoration: underline;
+}
+
+/* ...existing code... */
 
 

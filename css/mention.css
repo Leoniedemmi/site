@@ -1,0 +1,76 @@
+/* Style général pour le corps */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Style pour le header */
+header {
+    background-color: #003f5c;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 60px; 
+    width: auto; 
+}
+
+
+header .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .cart img {
+    height: 60px;
+}
+
+/* Style pour le main */
+main {
+    padding: 20px;
+}
+
+.legal-mentions {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.legal-mentions h1 {
+    text-align: center;
+    color: #003f5c;
+    margin-bottom: 20px;
+}
+
+.legal-mentions h2 {
+    color: #007bff;
+    margin-top: 20px;
+}
+
+.legal-mentions p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Style pour le footer */
+footer {
+    background-color: #003f5c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
