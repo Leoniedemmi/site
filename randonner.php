@@ -37,7 +37,7 @@
                     <h3>VOLKL - RISE UP</h3>
                     <p>Prix : 384,90€</p>
                     <form action="panier.php" method="POST">
-                        <input type="hidden" name="product_id" value="piste1">
+                        <input type="hidden" name="product_id" value="randonner1">
                         <input type="hidden" name="product_name" value="Ski de randonnée rise up">
                         <input type="hidden" name="product_price" value="450">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
@@ -48,7 +48,7 @@
                     <h3>ATOMIC - BACKLAND</h3>
                     <p>Prix : 391,90€</p>
                     <form action="panier.php" method="POST">
-                        <input type="hidden" name="product_id" value="piste2">
+                        <input type="hidden" name="product_id" value="randonner2">
                         <input type="hidden" name="product_name" value="Ski de randonnée backland">
                         <input type="hidden" name="product_price" value="520">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
@@ -59,7 +59,7 @@
                     <h3>ZAG - UBAC (+ Monture)</h3>
                     <p>Prix : 694,90€</p>
                     <form action="panier.php" method="POST">
-                        <input type="hidden" name="product_id" value="piste3">
+                        <input type="hidden" name="product_id" value="randonner3">
                         <input type="hidden" name="product_name" value="Ski de randonnée zag ubac">
                         <input type="hidden" name="product_price" value="600">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>

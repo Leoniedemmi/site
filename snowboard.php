@@ -37,7 +37,7 @@
                     <h3>JONES - WEAVER</h3>
                     <p>Prix : 543,80€</p>
                     <form action="panier.php" method="POST">
-                        <input type="hidden" name="product_id" value="piste1">
+                        <input type="hidden" name="product_id" value="snowboard1">
                         <input type="hidden" name="product_name" value="Snowboard Jones Weaver">
                         <input type="hidden" name="product_price" value="450">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
@@ -48,7 +48,7 @@
                     <h3>NIDECKER - ELLE</h3>
                     <p>Prix : 366,30€</p>
                     <form action="panier.php" method="POST">
-                        <input type="hidden" name="product_id" value="piste2">
+                        <input type="hidden" name="product_id" value="snowboard2">
                         <input type="hidden" name="product_name" value="Snowboard nidecker elle">
                         <input type="hidden" name="product_price" value="520">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
@@ -59,7 +59,7 @@
                 <h3>NIDECKER - ESCAPE</h3>
                     <p>Prix : 471,30€</p>
                     <form action="panier.php" method="POST">
-                        <input type="hidden" name="product_id" value="piste3">
+                        <input type="hidden" name="product_id" value="snowboard3">
                         <input type="hidden" name="product_name" value="Snowboard nidecker escape">
                         <input type="hidden" name="product_price" value="600">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>

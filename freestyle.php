@@ -37,7 +37,7 @@
                     <h3>ARV - 84</h3>
                     <p>Prix : 253,90€</p>
                     <form action="panier.php" method="POST">
-                        <input type="hidden" name="product_id" value="piste1">
+                        <input type="hidden" name="product_id" value="freestyle1">
                         <input type="hidden" name="product_name" value="Ski freestyle ARV 84">
                         <input type="hidden" name="product_price" value="450">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
@@ -48,7 +48,7 @@
                     <h3>FACTION - PRODIGY 2</h3>
                     <p>Prix : 489,90€</p>
                     <form action="panier.php" method="POST">
-                        <input type="hidden" name="product_id" value="piste2">
+                        <input type="hidden" name="product_id" value="freestyle2">
                         <input type="hidden" name="product_name" value="Ski freestyle Faction Prodigy 2">
                         <input type="hidden" name="product_price" value="520">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
@@ -59,7 +59,7 @@
                     <h3>ROSSIGNOL - EXPERIENCE</h3>
                     <p>Prix : 291,90€</p>
                     <form action="panier.php" method="POST">
-                        <input type="hidden" name="product_id" value="piste3">
+                        <input type="hidden" name="product_id" value="freestyle3">
                         <input type="hidden" name="product_name" value="Ski freestyle Rossignol Experience">
                         <input type="hidden" name="product_price" value="600">
                         <button type="submit" name="add_to_cart">Ajouter au panier</button>
