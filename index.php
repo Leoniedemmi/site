@@ -77,6 +77,8 @@
     <script src="js/carousel.js"></script>
     <footer>
         <p>&copy; 2024 Magasin de Ski</p>
+        <p>Adresse : 15 rue Germaine Tailleferre, 91200 Athis-Mons - Téléphone : 01 69 38 45 38</p>
+        <p><a href="mention.php">Mentions légales</a></p>
     </footer>
 </body>
 </html>
