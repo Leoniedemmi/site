@@ -29,8 +29,8 @@
             <h2>Informations Générales</h2>
             <p>
                 <strong>Nom de l'entreprise :</strong> Ça Glisse<br>
-                <strong>Adresse :</strong> 123 Rue des Skieurs, 75000 Paris, France<br>
-                <strong>Téléphone :</strong> +33 1 23 45 67 89<br>
+                <strong>Adresse :</strong> 15 rue Germaine Tailleferre, 91200 Athis-Mons, France<br>
+                <strong>Téléphone :</strong> +33 1 69 38 45 38<br>
                 <strong>Email :</strong> contact@caglisse.fr<br>
                 <strong>Directeur de la publication :</strong> Jean Dupont<br>
                 <strong>Hébergeur :</strong> OVH, 2 rue Kellermann, 59100 Roubaix, France

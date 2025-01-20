@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/ariane.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <!-- Logo -->
         <div class="logo">
             <img src="Plan de travail 1@3x.png" alt="Logo" />
