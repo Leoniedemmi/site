@@ -51,6 +51,9 @@
     </div>
 
     <main>
+        <div class="presentation">
+            <h1>Vous êtes chez Ça Glisse, un magasin de vente de tout type de ski et de snowboard, pour les débutants comme pour les experts !</h1>
+
         <section class="features">
             <link rel="stylesheet" href="css/produit.css">
             <div class="carousel">

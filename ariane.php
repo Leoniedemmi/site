@@ -35,7 +35,7 @@ if (basename($_SERVER['PHP_SELF']) == basename($home_page)) {
 function generate_breadcrumb() {
     $breadcrumb = "<nav aria-label='breadcrumb'><ol class='breadcrumb'>";
     foreach ($_SESSION['breadcrumb'] as $page) {
-        $breadcrumb .= "<li class='breadcrumb-item'><a href='/" . ltrim($page, '/') . "'>" . ucfirst(str_replace('_', ' ', pathinfo($page, PATHINFO_FILENAME))) . "</a></li>";
+        $breadcrumb .= "<li class='breadcrumb-item'><a href='" . ltrim($page, '/') . "'>" . ucfirst(str_replace('_', ' ', pathinfo($page, PATHINFO_FILENAME))) . "</a></li>";
     }
     $breadcrumb .= "</ol></nav>";
     return $breadcrumb;
