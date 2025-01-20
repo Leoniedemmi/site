@@ -31,7 +31,7 @@
     <main>
         <section class="product-detail">
             <div class="product-container">
-                <img src="../img/ski_de_piste/HEAD_REBELS_389,90.png" alt="Ski de Piste X1" class="product-image">
+                <img src="../img/ski_de_piste/HEAD_REBELS_389,90.png" alt="Ski de Piste Head Rebels" class="product-image">
                 <div class="product-info">
                     <h2>HEAD - REBELS</h2>
                     <p>Prix : 389,90€</p>
@@ -39,7 +39,7 @@
                         Les skis de piste "REBELS" de la marque HEAD sont conçu pour les skieurs exigeants, offrant une excellente stabilité, 
                         maniabilité et performance sur les pistes damées. Idéal pour les amateurs comme pour les experts.
                     </p>
-                    <form action="../quantite.php" method="POST">
+                    <form action="panier.php" action="quantite.php" method="GET">
                         <input type="hidden" name="product_id" value="piste1">
                         <input type="hidden" name="product_name" value="Ski de Piste Head Rebels">
                         <input type="hidden" name="product_price" value="450">
