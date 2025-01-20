@@ -73,7 +73,9 @@
             </div>
         </section>
     </main>
-
+    <section>
+        <a href="https://youtu.be/k12GHIJB92c" alt="vidéo de présentation">Vidéo de présentation</a>
+    </section>
     <script src="js/carousel.js"></script>
     <footer>
         <p>&copy; 2024 Magasin de Ski</p>
