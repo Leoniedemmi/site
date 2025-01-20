@@ -37,7 +37,21 @@ nav ul li a {
 nav ul li a:hover {
     color: #ffa600;
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
 /* Section produit */
 main {
     padding: 20px;
@@ -109,19 +123,16 @@ form button:hover {
     background-color: #ffa600;
 }
 
-/* Pied de page */
+
 footer {
+    position:relative;
+    text-align: center;
     background-color: #003f5c;
     color: white;
-    text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
     width: 100%;
-    font-size: 14px;
+    bottom: 0;
 }
-
-/* Ligne horizontale décorative avec @keyframes */
 @keyframes slide {
     0% {
         transform: translateX(-100%);
