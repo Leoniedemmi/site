@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="Plan de travail 1@3x.png" alt="Logo" />
+            <a href="index.php"><img src="Plan de travail 1@3x.png" alt="Logo" /></a>
         </div>
         <div class="title">
         <a href="index.php" style="color: white; text-decoration: none;">Ça Glisse</a>
