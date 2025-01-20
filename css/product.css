@@ -37,21 +37,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #ffa600;
 }
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
-    nav ul {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-}
 /* Section produit */
 main {
     padding: 20px;
@@ -63,7 +49,59 @@ main {
     align-items: center;
     flex-wrap: wrap;
 }
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
 
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .product-detail {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 5px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    nav ul {
+        gap: 5px;
+    }
+
+    nav ul li a {
+        font-size: 0.8rem;
+    }
+
+    main {
+        padding: 5px;
+    }
+
+    .product-detail {
+        align-items: center;
+    }
+}
 .product-container {
     display: flex;
     background-color: white;
