@@ -155,3 +155,71 @@ footer:before {
     bottom: 0;
     left: 0;
 }
+
+
+/* ...existing code... */
+
+/* Media Queries pour rendre le site responsive */
+@media (max-width: 1200px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 8px;
+    }
+
+    nav ul li a {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 6px;
+    }
+
+    nav ul li a {
+        font-size: 0.6rem;
+    }
+}
